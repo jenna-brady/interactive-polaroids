@@ -1,11 +1,10 @@
 html {
   background-color: #e2e2e2;
-
   font-family: sans-serif;
 }
 
 body {
-  position: relative;;
+  position: relative;
 }
 
 .polaroid {
@@ -36,19 +35,20 @@ body {
   z-index: 100;
 }
 
-
 figure:first-child {
   transform: rotate(-12deg);
   left: 20%;
   top: 100px;
   z-index: 1;
 }
+
 figure:nth-child(2) {
   transform: rotate(5deg);
   left: 30%;
   top: 150px;
   z-index: 3;
 }
+
 figure:last-child {
   transform: rotate(33deg);
   left: 40%;
