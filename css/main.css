@@ -9,10 +9,10 @@ body {
 }
 
 .polaroid {
-  margin: 0 auto;;
+  margin: 0 auto;
   padding: 10px;
   width: 250px;
-  display: block;;
+  display: block;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
@@ -43,14 +43,12 @@ figure:first-child {
   top: 100px;
   z-index: 1;
 }
-
 figure:nth-child(2) {
   transform: rotate(5deg);
   left: 30%;
   top: 150px;
   z-index: 3;
 }
-
 figure:last-child {
   transform: rotate(33deg);
   left: 40%;
